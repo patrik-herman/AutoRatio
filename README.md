@@ -16,6 +16,7 @@ your_background_div_selector {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	background-image: url('path/to/your/background.png');
 }
 ```
 * Right before `</body>` element add two `script` tags:
