@@ -2,9 +2,9 @@
 Small library for all websites that wants to add fullsize background images with automatic ratio.
 
 ## How to use
-1. Add the library somewhere in your local folder
-2. Create a new `div` element to your website, that will be your background image.
-3. Add it following styles into your css code:
+* Add the library somewhere in your local folder
+* Create a new `div` element to your website, that will be your background image.
+* Add it following styles into your css code:
 ```css
 your_background_div_selector {
 	position: absolute;
@@ -18,11 +18,11 @@ your_background_div_selector {
 	background-position: center;
 }
 ```
-4. Right before `body` element add two `script` tags:
+* Right before `body` element add two `script` tags:
 ```html
 <script src="path/to/AutoRatio.js"></script>
 <script>
 	AutoRatio.enable('your_background_div_selector', width_of_image, height_of_image);
 </script>
 ```
-5. You're ready, enjoy!
+* You're ready, enjoy!
