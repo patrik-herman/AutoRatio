@@ -3,7 +3,7 @@ Small library for all websites that wants to add fullsize background images with
 
 ## How to use
 * Add the library somewhere in your local folder
-* Create a new `div` element to your website, that will be your background image.
+* Create a new `<div>` element to your website, that will be your background image.
 * Add it following styles into your css code:
 ```css
 your_background_div_selector {
@@ -18,7 +18,7 @@ your_background_div_selector {
 	background-position: center;
 }
 ```
-* Right before `body` element add two `script` tags:
+* Right before `</body>` element add two `script` tags:
 ```html
 <script src="path/to/AutoRatio.js"></script>
 <script>
