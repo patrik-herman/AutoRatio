@@ -7,7 +7,7 @@ Small library for all websites that wants to add fullsize background images with
 * Add it following styles into your css code:
 ```css
 your_background_div_selector {
-	position: absolute;
+	position: fixed;
 	top: 0; left: 0;
 	width: 100%;
 	height: 100%;
