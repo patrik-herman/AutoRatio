@@ -19,11 +19,12 @@ your_background_div_selector {
 	background-image: url('path/to/your/background.png');
 }
 ```
-* Right before `</body>` element add two `script` tags:
+* Right before end of `body` tag add two `script` tags:
 ```html
 <script src="path/to/AutoRatio.js"></script>
 <script>
 	AutoRatio.enable('your_background_div_selector', width_of_image, height_of_image);
 </script>
+</body>
 ```
 * You're ready, enjoy!
